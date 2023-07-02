@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+
+    <title>GIEO XÚC SẮC</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Người chơi 1-->
+      <div class="player cum1">
+        <h2 class="player-1">Player 1</h2>
+        <h1 class="hold-score-player1">0</h1>
+        <div class="cup1"><i class="fa-solid fa-trophy"></i></div>
+        <div class="score-current">
+          <div class="current current-1">Current</div>
+          <div class="score score1 score-1">0</div>
+        </div>
+      </div>
+
+      <!--Người chơi 2-->
+      <div class="player cum2">
+        <h2 class="player-2">Player 2</h2>
+        <h1 class="hold-score-player2">0</h1>
+        <div class="cup2"><i class="fa-solid fa-trophy"></i></div>
+        <div class="score-current">
+          <div class="current current-2">Current</div>
+          <div class="score score2 score-2">0</div>
+        </div>
+      </div>
+    </div>
+
+    <!--PHẦN ĐIỀU CHỈNH: NEW GAME, ROLL DIVE, HOLD-->
+    <div class="select">
+      <a href="#" class="icon-newgame"
+        ><i class="fa-solid fa-arrows-rotate"></i>
+        <div class="newgame">new game</div></a
+      >
+      <img src="dice-1.png" alt="#" class="xucsac hide" />
+      <a href="#" class="icon-roll roll-m"
+        ><i class="fa-solid fa-dice"></i>
+        <div class="roll">roll dice</div></a
+      >
+      <a href="#" class="icon-hold hold-m"
+        ><i class="fa-solid fa-square-plus"></i>
+        <div class="hold">hold</div></a
+      >
+    </div>
+    <script src="scipt.js"></script>
+  </body>
+</html>
